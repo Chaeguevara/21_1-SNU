@@ -25,7 +25,42 @@ that takes two sparse vectors stored as dictionaries and returns a new dictionar
 {}
 """
 
-def P8(dct1, dct2):
 
+def P8(dct1, dct2):
+    dct1_new = dct1.copy()
+    dct2_new = dct2.copy()
+
+    result = {}
+    check_zero = 0
+    # base case empty dict(zero vector)
+    if (len(dct1_new) == 0) and (len(dct2_new) == 0):
+        return result
+
+    if (len(dct1_new) == 0):
+        return dct2_new
+
+    if (len(dct2_new) == 0):
+        return dct1_new
+
+    # iterate to construct a dictionary
+    # dct1 then dct2. Try to get the value in case it already exists
+    for key in dct1_new:
+        result[key] = result.get(key, 0) + dct1_new[key]
+
+    # dct2
+    for key in dct2_new:
+        result[key] = result.get(key, 0) + dct2_new[key]
     
-    return
+    # if all values are 0, return empty
+
+    for key in result:
+        if result[key] == 0:
+            check_zero +=1
+    
+    if check_zero == len(result):
+        result = {}
+
+
+    return result
+
+print(P8({0:1, 6:-3}, {0:-1, 6:3}))

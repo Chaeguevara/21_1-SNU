@@ -17,4 +17,13 @@ False
 
 
 def P4(dct):
-    return
+    result = False
+    value_sum = 0
+    # sum value
+    for key in dct:
+        value_sum += dct[key]
+    
+    # check
+    if value_sum == 1:
+        result = True
+    return result

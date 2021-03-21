@@ -52,5 +52,16 @@ Implement a function that returns the set of keys used in any of the inner dicti
 """
 
 def P6(dct):
+    result = []
+    # get the values(dictionaries)
+    inner_dict = list(dct.values())
 
-    return
+    #iterate over inner_dict. Accessing each dictionaries
+    for in_dct in inner_dict:
+        result += list(in_dct.keys())
+
+    # turn into set
+    result = set(result)
+
+
+    return result

@@ -194,4 +194,8 @@ dmypy.json
 .history
 .ionide
 
+### original fiels###
+*.pdf
+*.zip
+
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python,visualstudiocode,linux,git

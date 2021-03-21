@@ -20,5 +20,18 @@ and returns the number of distinct values it contains.
 
 
 def P2(dct):
-    
-    return
+    result = 0
+    new_dct = dct.copy()
+    value_list = []
+    #base case: if dictionary length = 0, return 0
+    if len(new_dct) == 0:
+        return result
+    # extract values of dictionary and put them into list
+    for key in new_dct:
+        value_list.append(new_dct[key])
+    #convert set
+    unique_set = set(value_list)    
+    #return length of set
+    result = len(unique_set)
+
+    return result

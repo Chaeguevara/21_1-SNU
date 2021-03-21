@@ -38,8 +38,35 @@ Explanation: All values have exactly the same keys. {'aa', 'ab'}
 
 
 def P7(dct):
+    """
+    main idea: First get the all key set for innder dictionaries
+    then by looping, compare the local key set with total key set 
+    so that if all the innder dictionaries have the same key of overall, return TRUE else FALSE  
+    """
+    #initailize parameter
+    overall_keys = set()
+    key_list = []
+    boolean_intersect = 0
+    result = False
     
-    #return type: boolean
-    return
+
+    #get the inner value(dictionaries)
+    for key in dct:
+        # add key set to set and list so that compare with overall key set and each key set
+        key_list.append(set(dct[key].keys()))
+        for innner_dict_key in dct[key]:
+            overall_keys.add(innner_dict_key)
+    print(overall_keys)
+    print(key_list)
+
+    #Compare overall key set to each one
+    for key_set in key_list:
+        boolean_intersect += len(overall_keys.intersection(key_set))
     
+    #Check boolean_intersect value
+    # if it equals to len(key_list)*overall_keys then true
+    if boolean_intersect == len(key_list)*len(overall_keys):
+        result = True
+
+    return result
     
