@@ -24,7 +24,22 @@ P3 should return below list.
 
 def P3(filename: str) -> list:        
     ##### Write your Code Here #####    
-
-    return list()
+    result = []
+    # Read file
+    with open(filename,'r') as file:
+        lines = file.readlines()
+        #for lines, if it starts with '#/' -> skip
+        for line in lines:
+            if line.startswith("#") or line.startswith("/"):
+                pass 
+            else:
+            #for lines try split # and if true, select line[0]
+                sub_result = line.split('#')[0]
+                sub_result = sub_result.replace('\n','')
+                result.append(sub_result)
+    return result
     ##### End of your code #####
 
+print(
+    P3("alkain_2.txt")
+)

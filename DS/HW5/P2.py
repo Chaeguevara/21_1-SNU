@@ -15,6 +15,14 @@ it should return
 
 def P2(filename: str) -> list:        
     ##### Write your Code Here #####
+    result = []
+    #Read file
+    with open(filename,'r') as file:
+        lines = file.readlines()
+        length = len(lines)
+        for i in range(length,0,-1):
+            line = lines[i-1]
+            result.append(line)
 
-    return list()
+    return result
     ##### End of your code #####

@@ -26,6 +26,16 @@ radium,88,226
 
 def P4(input_filename: str, out_filename: str):        
     ##### Write your Code Here #####    
-
+    result = []
+    #read file
+    with open(input_filename,'r') as input_file, open(out_filename,'w') as output_file:
+        lines = input_file.readlines()
+        #Access each line
+        for line in lines:
+            # replace " " -> ", "
+            line = line.replace(" ",",")
+            #write
+            output_file.write(line)
+    
     ##### End of your code #####
     

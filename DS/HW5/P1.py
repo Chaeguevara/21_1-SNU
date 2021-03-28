@@ -19,10 +19,18 @@ Then return the list of lists.
 
 """
 def P1(filename: str) -> list:        
-    ##### Write your Code Here #####
+    result = []
+    # Read file
+    with open(filename,'r') as file:
     
+        lines = file.readlines()
+        
+        #Loop through each line
+        for line in lines:
+            line = line.replace("\n","")
+            sub = line.split(" ")
+            result.append(sub)
+    print(result)
 
-    return list()
+    return result
     ##### End of your code #####
-
-
