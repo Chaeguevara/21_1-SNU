@@ -1,8 +1,12 @@
 class Calculator:
     """
-    Key strategy : put digits and operation in buffer and excute at transaction
+    Key strategy : 
+    - put digits in buffer 
     0 -> 01 -> 013 -> 0135
-    if +-, append the number in buffer to list
+    - when operation is entered, put buffers into formula
+    [] -> [135,'+']
+    and excute at transaction
+    [135,'+',452] -> 587
     """
 
     def __init__(self):

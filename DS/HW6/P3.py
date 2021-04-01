@@ -42,7 +42,7 @@ class Shape:
             if (self.p1.x == points_list[i].x) and (self.p1.y == points_list[i].y):
                 return result 
             #calculate all distance
-            key = calc_distance_wo_root(p1,points_list[i])
+            key = calc_distance_wo_root(self.p1,points_list[i])
             len_point_dict.setdefault(key, [])
             len_point_dict[key].append(points_list[i])
         #if key_list length != 2, which means several numbers for diagonal or edge, return false
@@ -81,3 +81,9 @@ def calc_distance_wo_root(p1,p2):
     return distance
 
 
+p1 = Point(-1,0)
+p2 = Point(1,0)
+p3 = Point(0,1)
+p4 = Point(1,0)
+s = Shape(p1, p2, p3, p4)
+print(s.is_square())
