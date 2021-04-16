@@ -15,17 +15,18 @@ def P1(root: TreeNode, low: int, high: int) -> int:
         if not curNode:
             return sumVal
         if curNode.val < low:
-            return sumVal
+            curNode.left = None
         if curNode.val > high:
             curNode.right = None
-        print(curNode.printTree())
-        # recursive case
-        if (curNode.left) and (curNode.left.val >= low):
-            sumVal = sumHelper(curNode.left, low, high, sumVal + curNode.left.val)
-        if (curNode.right) and (curNode.right.val <= high):
-            sumVal = sumHelper(curNode.right, low, high, sumVal + curNode.right.val)
+        if (curNode.val >= low) and (curNode.val <= high):
+            sumVal += curNode.val
 
-        print(sumVal)
+        # recursive case
+        if (curNode.left):
+            sumVal = sumHelper(curNode.left, low, high, sumVal)
+        if (curNode.right):
+            sumVal = sumHelper(curNode.right, low, high, sumVal)
+
         return sumVal
 
     
@@ -36,4 +37,10 @@ def P1(root: TreeNode, low: int, high: int) -> int:
 
 
 root = create_linked_bst([10,5,15,3,7, 9, 18])
-print(P1(root, 3, 9 ))
+print(P1(root, 3, 15 ))
+
+root = create_linked_bst([10,5,15,3,7,None,18])
+print(P1(root, 7, 15))
+
+root = create_linked_bst ([10,5,15,3,7,13,18,1,None,6])
+print(P1(root,6,10)) 
