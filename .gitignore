@@ -197,5 +197,6 @@ dmypy.json
 ### original fiels###
 *.pdf
 *.zip
+*.csv
 
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python,visualstudiocode,linux,git

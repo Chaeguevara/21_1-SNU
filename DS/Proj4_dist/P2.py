@@ -37,10 +37,3 @@ def P2(root: TreeNode):
     return result
     ##### End of your code #####
 
-
-root = create_linked_bst([10,5,15,3,7,None,18])
-print(P2(root))
-
-
-root = create_linked_bst([5,3,6,2,4,None,7])
-print(P2(root))

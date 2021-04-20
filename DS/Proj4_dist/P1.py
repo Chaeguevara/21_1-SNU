@@ -35,12 +35,3 @@ def P1(root: TreeNode, low: int, high: int) -> int:
     return sumVal
     ##### End of your code #####
 
-
-root = create_linked_bst([10,5,15,3,7, 9, 18])
-print(P1(root, 3, 15 ))
-
-root = create_linked_bst([10,5,15,3,7,None,18])
-print(P1(root, 7, 15))
-
-root = create_linked_bst ([10,5,15,3,7,13,18,1,None,6])
-print(P1(root,6,10)) 
