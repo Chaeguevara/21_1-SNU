@@ -16,61 +16,28 @@ def P3(world):
     5. 모든 루프를 돌려 값을 찾음
     '''
     #m
-    m = len(world[0])
     #n
-    n = len(world)
     # 방문 판별용 딕셔너리
-    visited = {}
 
     # 0,1의 모든 좌표를 dictionary에 더함
     # {0:[(3,3),(4,4),....],
     # 1:[{1,1},(2,6)....]
     # }
     # 모든 좌표도 visited = False로
-    value_coord_dict = {}
-    value_coord_dict[0] = []
-    value_coord_dict[1] = []
-    for i in range(n):
-        for j in range(m):
-            visited[(i, j)] = False
-            value_coord_dict[world[i][j]].append((i, j))
+
     # landcount만듬
-    landCount = 0
 
     #helper. 만약 현재 밟은 위치가 방문한적 없고, 땅이라면 visited를 True로 바꿈
     # 또한 해당 위치의 위,아래,왼쪽,오른쪽에 대해서도 마찬가지로 recursion을 통해 visited 반영함
-    def p3Helper(value_coord_dict, visited, landCount, v, m, n):
         #방문한적 없고, 땅이라면
-        if (visited[v] == False) and (v in value_coord_dict[1]):
-
-            visited[v] = True
             # 위
-            if (v[0]-1 >= 0):
-                p3Helper(value_coord_dict, visited,
-                        landCount, (v[0]-1, v[1]), m, n)
             # 아래
-            if (v[0] + 1 < n):
-                p3Helper(value_coord_dict, visited,
-                        landCount, (v[0]+1, v[1]), m, n)
             # 왼쪽
-            if (v[1] - 1 >= 0):
-                p3Helper(value_coord_dict, visited,
-                        landCount, (v[0], v[1]-1), m, n)
             # 오른쪽
-            if (v[1] + 1 < m):
-                p3Helper(value_coord_dict, visited,
-                        landCount, (v[0], v[1]+1), m, n)
 
 
     #큰 루프. 전체에 대해서 돈다
-    for i in range(n):
-        for j in range(m):
             # 현재 밟은 곳이 땅이고 밟은적 없다면
-            if (world[i][j] == 1) and (visited[(i,j)] == False):
                 # 대륙갯수에 하나 더한다
-                landCount += 1
                 # 현재 위치 주변이 땅인지 판별한다.Helper
-                p3Helper(value_coord_dict,visited,landCount,(i,j),m,n)
 
-
-    return landCount
