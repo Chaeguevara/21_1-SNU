@@ -1,0 +1,12 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - pandas
+  - keras
+  - opencv
+  - scikit-learn
+  - pip:
+      - imgaug
