@@ -1,0 +1,755 @@
+-------------- Restart of the game --------------
+Exploration choice in Epsilon greedy is  1
+Current pos is 3 . Selected action is 1
+Now, our agent is at  4
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.99
+[[1.   1.  ]
+ [1.   1.  ]
+ [1.   1.  ]
+ [1.   0.99]
+ [1.   1.  ]
+ [1.   1.  ]
+ [1.   1.  ]]
+Exploitation choice in Epsilon greedy is  0
+Current pos is 4 . Selected action is -1
+Now, our agent is at  3
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.99
+[[1.   1.  ]
+ [1.   1.  ]
+ [1.   1.  ]
+ [1.   0.99]
+ [0.99 1.  ]
+ [1.   1.  ]
+ [1.   1.  ]]
+Exploitation choice in Epsilon greedy is  0
+Current pos is 3 . Selected action is -1
+Now, our agent is at  2
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.99
+[[1.   1.  ]
+ [1.   1.  ]
+ [1.   1.  ]
+ [0.99 0.99]
+ [0.99 1.  ]
+ [1.   1.  ]
+ [1.   1.  ]]
+Exploitation choice in Epsilon greedy is  0
+Current pos is 2 . Selected action is -1
+Now, our agent is at  1
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.99
+[[1.   1.  ]
+ [1.   1.  ]
+ [0.99 1.  ]
+ [0.99 0.99]
+ [0.99 1.  ]
+ [1.   1.  ]
+ [1.   1.  ]]
+Exploitation choice in Epsilon greedy is  0
+Current pos is 1 . Selected action is -1
+Now, our agent is at  0
+True reward of the action  0  is  -1
+Updated Q[curr_pos][a] is  0.89
+[[1.   1.  ]
+ [0.89 1.  ]
+ [0.99 1.  ]
+ [0.99 0.99]
+ [0.99 1.  ]
+ [1.   1.  ]
+ [1.   1.  ]]
+-------------- Restart of the game --------------
+Exploitation choice in Epsilon greedy is  0
+Current pos is 3 . Selected action is -1
+Now, our agent is at  2
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.981
+[[1.    1.   ]
+ [0.89  1.   ]
+ [0.99  1.   ]
+ [0.981 0.99 ]
+ [0.99  1.   ]
+ [1.    1.   ]
+ [1.    1.   ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 2 . Selected action is 1
+Now, our agent is at  3
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.9891
+[[1.     1.    ]
+ [0.89   1.    ]
+ [0.99   0.9891]
+ [0.981  0.99  ]
+ [0.99   1.    ]
+ [1.     1.    ]
+ [1.     1.    ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 3 . Selected action is 1
+Now, our agent is at  4
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.981
+[[1.     1.    ]
+ [0.89   1.    ]
+ [0.99   0.9891]
+ [0.981  0.981 ]
+ [0.99   1.    ]
+ [1.     1.    ]
+ [1.     1.    ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 4 . Selected action is 1
+Now, our agent is at  5
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.99
+[[1.     1.    ]
+ [0.89   1.    ]
+ [0.99   0.9891]
+ [0.981  0.981 ]
+ [0.99   0.99  ]
+ [1.     1.    ]
+ [1.     1.    ]]
+Exploitation choice in Epsilon greedy is  0
+Current pos is 5 . Selected action is -1
+Now, our agent is at  4
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.9891
+[[1.     1.    ]
+ [0.89   1.    ]
+ [0.99   0.9891]
+ [0.981  0.981 ]
+ [0.99   0.99  ]
+ [0.9891 1.    ]
+ [1.     1.    ]]
+Exploitation choice in Epsilon greedy is  0
+Current pos is 4 . Selected action is -1
+Now, our agent is at  3
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.97929
+[[1.      1.     ]
+ [0.89    1.     ]
+ [0.99    0.9891 ]
+ [0.981   0.981  ]
+ [0.97929 0.99   ]
+ [0.9891  1.     ]
+ [1.      1.     ]]
+Exploitation choice in Epsilon greedy is  0
+Current pos is 3 . Selected action is -1
+Now, our agent is at  2
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.972
+[[1.      1.     ]
+ [0.89    1.     ]
+ [0.99    0.9891 ]
+ [0.972   0.981  ]
+ [0.97929 0.99   ]
+ [0.9891  1.     ]
+ [1.      1.     ]]
+Exploitation choice in Epsilon greedy is  0
+Current pos is 2 . Selected action is -1
+Now, our agent is at  1
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.981
+[[1.      1.     ]
+ [0.89    1.     ]
+ [0.981   0.9891 ]
+ [0.972   0.981  ]
+ [0.97929 0.99   ]
+ [0.9891  1.     ]
+ [1.      1.     ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 1 . Selected action is 1
+Now, our agent is at  2
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.989019
+[[1.       1.      ]
+ [0.89     0.989019]
+ [0.981    0.9891  ]
+ [0.972    0.981   ]
+ [0.97929  0.99    ]
+ [0.9891   1.      ]
+ [1.       1.      ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 2 . Selected action is 1
+Now, our agent is at  3
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.97848
+[[1.       1.      ]
+ [0.89     0.989019]
+ [0.981    0.97848 ]
+ [0.972    0.981   ]
+ [0.97929  0.99    ]
+ [0.9891   1.      ]
+ [1.       1.      ]]
+-------------- Restart of the game --------------
+Exploitation choice in Epsilon greedy is  1
+Current pos is 3 . Selected action is 1
+Now, our agent is at  4
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.972
+[[1.       1.      ]
+ [0.89     0.989019]
+ [0.981    0.97848 ]
+ [0.972    0.972   ]
+ [0.97929  0.99    ]
+ [0.9891   1.      ]
+ [1.       1.      ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 4 . Selected action is 1
+Now, our agent is at  5
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.981
+[[1.       1.      ]
+ [0.89     0.989019]
+ [0.981    0.97848 ]
+ [0.972    0.972   ]
+ [0.97929  0.981   ]
+ [0.9891   1.      ]
+ [1.       1.      ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 5 . Selected action is 1
+Now, our agent is at  6
+True reward of the action  1  is  1
+Updated Q[curr_pos][a] is  1.09
+[[1.       1.      ]
+ [0.89     0.989019]
+ [0.981    0.97848 ]
+ [0.972    0.972   ]
+ [0.97929  0.981   ]
+ [0.9891   1.09    ]
+ [1.       1.      ]]
+-------------- Restart of the game --------------
+Exploitation choice in Epsilon greedy is  0
+Current pos is 3 . Selected action is -1
+Now, our agent is at  2
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.96309
+[[1.       1.      ]
+ [0.89     0.989019]
+ [0.981    0.97848 ]
+ [0.96309  0.972   ]
+ [0.97929  0.981   ]
+ [0.9891   1.09    ]
+ [1.       1.      ]]
+Exploitation choice in Epsilon greedy is  0
+Current pos is 2 . Selected action is -1
+Now, our agent is at  1
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.97191171
+[[1.         1.        ]
+ [0.89       0.989019  ]
+ [0.97191171 0.97848   ]
+ [0.96309    0.972     ]
+ [0.97929    0.981     ]
+ [0.9891     1.09      ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 1 . Selected action is 1
+Now, our agent is at  2
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.9781803
+[[1.         1.        ]
+ [0.89       0.9781803 ]
+ [0.97191171 0.97848   ]
+ [0.96309    0.972     ]
+ [0.97929    0.981     ]
+ [0.9891     1.09      ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 2 . Selected action is 1
+Now, our agent is at  3
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.968112
+[[1.         1.        ]
+ [0.89       0.9781803 ]
+ [0.97191171 0.968112  ]
+ [0.96309    0.972     ]
+ [0.97929    0.981     ]
+ [0.9891     1.09      ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 3 . Selected action is 1
+Now, our agent is at  4
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.96309
+[[1.         1.        ]
+ [0.89       0.9781803 ]
+ [0.97191171 0.968112  ]
+ [0.96309    0.96309   ]
+ [0.97929    0.981     ]
+ [0.9891     1.09      ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 4 . Selected action is 1
+Now, our agent is at  5
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.981
+[[1.         1.        ]
+ [0.89       0.9781803 ]
+ [0.97191171 0.968112  ]
+ [0.96309    0.96309   ]
+ [0.97929    0.981     ]
+ [0.9891     1.09      ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 5 . Selected action is 1
+Now, our agent is at  6
+True reward of the action  1  is  1
+Updated Q[curr_pos][a] is  1.171
+[[1.         1.        ]
+ [0.89       0.9781803 ]
+ [0.97191171 0.968112  ]
+ [0.96309    0.96309   ]
+ [0.97929    0.981     ]
+ [0.9891     1.171     ]
+ [1.         1.        ]]
+-------------- Restart of the game --------------
+Exploitation choice in Epsilon greedy is  0
+Current pos is 3 . Selected action is -1
+Now, our agent is at  2
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.9542530539
+[[1.         1.        ]
+ [0.89       0.9781803 ]
+ [0.97191171 0.968112  ]
+ [0.95425305 0.96309   ]
+ [0.97929    0.981     ]
+ [0.9891     1.171     ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  0
+Current pos is 2 . Selected action is -1
+Now, our agent is at  1
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.962756766
+[[1.         1.        ]
+ [0.89       0.9781803 ]
+ [0.96275677 0.968112  ]
+ [0.95425305 0.96309   ]
+ [0.97929    0.981     ]
+ [0.9891     1.171     ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 1 . Selected action is 1
+Now, our agent is at  2
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.96749235
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.96275677 0.968112  ]
+ [0.95425305 0.96309   ]
+ [0.97929    0.981     ]
+ [0.9891     1.171     ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 2 . Selected action is 1
+Now, our agent is at  3
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.9579789
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.96275677 0.9579789 ]
+ [0.95425305 0.96309   ]
+ [0.97929    0.981     ]
+ [0.9891     1.171     ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 3 . Selected action is 1
+Now, our agent is at  4
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.955071
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.96275677 0.9579789 ]
+ [0.95425305 0.955071  ]
+ [0.97929    0.981     ]
+ [0.9891     1.171     ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 4 . Selected action is 1
+Now, our agent is at  5
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.98829
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.96275677 0.9579789 ]
+ [0.95425305 0.955071  ]
+ [0.97929    0.98829   ]
+ [0.9891     1.171     ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 5 . Selected action is 1
+Now, our agent is at  6
+True reward of the action  1  is  1
+Updated Q[curr_pos][a] is  1.2439
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.96275677 0.9579789 ]
+ [0.95425305 0.955071  ]
+ [0.97929    0.98829   ]
+ [0.9891     1.2439    ]
+ [1.         1.        ]]
+-------------- Restart of the game --------------
+Exploitation choice in Epsilon greedy is  1
+Current pos is 3 . Selected action is 1
+Now, our agent is at  4
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.94851
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.96275677 0.9579789 ]
+ [0.95425305 0.94851   ]
+ [0.97929    0.98829   ]
+ [0.9891     1.2439    ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 4 . Selected action is 1
+Now, our agent is at  5
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  1.001412
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.96275677 0.9579789 ]
+ [0.95425305 0.94851   ]
+ [0.97929    1.001412  ]
+ [0.9891     1.2439    ]
+ [1.         1.        ]]
+Exploration choice in Epsilon greedy is  0
+Current pos is 5 . Selected action is -1
+Now, our agent is at  4
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.98031708
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.96275677 0.9579789 ]
+ [0.95425305 0.94851   ]
+ [0.97929    1.001412  ]
+ [0.98031708 1.2439    ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 4 . Selected action is 1
+Now, our agent is at  5
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  1.0132218
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.96275677 0.9579789 ]
+ [0.95425305 0.94851   ]
+ [0.97929    1.0132218 ]
+ [0.98031708 1.2439    ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 5 . Selected action is 1
+Now, our agent is at  6
+True reward of the action  1  is  1
+Updated Q[curr_pos][a] is  1.30951
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.96275677 0.9579789 ]
+ [0.95425305 0.94851   ]
+ [0.97929    1.0132218 ]
+ [0.98031708 1.30951   ]
+ [1.         1.        ]]
+-------------- Restart of the game --------------
+Exploitation choice in Epsilon greedy is  0
+Current pos is 3 . Selected action is -1
+Now, our agent is at  2
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.9454758574500001
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.96275677 0.9579789 ]
+ [0.94547586 0.94851   ]
+ [0.97929    1.0132218 ]
+ [0.98031708 1.30951   ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  0
+Current pos is 2 . Selected action is -1
+Now, our agent is at  1
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.9535554009
+[[1.         1.        ]
+ [0.89       0.96749235]
+ [0.9535554  0.9579789 ]
+ [0.94547586 0.94851   ]
+ [0.97929    1.0132218 ]
+ [0.98031708 1.30951   ]
+ [1.         1.        ]]
+Exploration choice in Epsilon greedy is  1
+Current pos is 1 . Selected action is 1
+Now, our agent is at  2
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.9569612160000001
+[[1.         1.        ]
+ [0.89       0.95696122]
+ [0.9535554  0.9579789 ]
+ [0.94547586 0.94851   ]
+ [0.97929    1.0132218 ]
+ [0.98031708 1.30951   ]
+ [1.         1.        ]]
+Exploration choice in Epsilon greedy is  0
+Current pos is 2 . Selected action is -1
+Now, our agent is at  1
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.94432637025
+[[1.         1.        ]
+ [0.89       0.95696122]
+ [0.94432637 0.9579789 ]
+ [0.94547586 0.94851   ]
+ [0.97929    1.0132218 ]
+ [0.98031708 1.30951   ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 1 . Selected action is 1
+Now, our agent is at  2
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.9474831954
+[[1.         1.        ]
+ [0.89       0.9474832 ]
+ [0.94432637 0.9579789 ]
+ [0.94547586 0.94851   ]
+ [0.97929    1.0132218 ]
+ [0.98031708 1.30951   ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 2 . Selected action is 1
+Now, our agent is at  3
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.94754691
+[[1.         1.        ]
+ [0.89       0.9474832 ]
+ [0.94432637 0.94754691]
+ [0.94547586 0.94851   ]
+ [0.97929    1.0132218 ]
+ [0.98031708 1.30951   ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 3 . Selected action is 1
+Now, our agent is at  4
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.944848962
+[[1.         1.        ]
+ [0.89       0.9474832 ]
+ [0.94432637 0.94754691]
+ [0.94547586 0.94484896]
+ [0.97929    1.0132218 ]
+ [0.98031708 1.30951   ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 4 . Selected action is 1
+Now, our agent is at  5
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  1.02975552
+[[1.         1.        ]
+ [0.89       0.9474832 ]
+ [0.94432637 0.94754691]
+ [0.94547586 0.94484896]
+ [0.97929    1.02975552]
+ [0.98031708 1.30951   ]
+ [1.         1.        ]]
+Exploration choice in Epsilon greedy is  0
+Current pos is 5 . Selected action is -1
+Now, our agent is at  4
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.9749633687999999
+[[1.         1.        ]
+ [0.89       0.9474832 ]
+ [0.94432637 0.94754691]
+ [0.94547586 0.94484896]
+ [0.97929    1.02975552]
+ [0.97496337 1.30951   ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 4 . Selected action is 1
+Now, our agent is at  5
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  1.0446358679999999
+[[1.         1.        ]
+ [0.89       0.9474832 ]
+ [0.94432637 0.94754691]
+ [0.94547586 0.94484896]
+ [0.97929    1.04463587]
+ [0.97496337 1.30951   ]
+ [1.         1.        ]]
+-------------- Restart of the game --------------
+Exploitation choice in Epsilon greedy is  0
+Current pos is 3 . Selected action is -1
+Now, our agent is at  2
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.9362074936050001
+[[1.         1.        ]
+ [0.89       0.9474832 ]
+ [0.94432637 0.94754691]
+ [0.93620749 0.94484896]
+ [0.97929    1.04463587]
+ [0.97496337 1.30951   ]
+ [1.         1.        ]]
+Exploration choice in Epsilon greedy is  0
+Current pos is 2 . Selected action is -1
+Now, our agent is at  1
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.935167220811
+[[1.         1.        ]
+ [0.89       0.9474832 ]
+ [0.93516722 0.94754691]
+ [0.93620749 0.94484896]
+ [0.97929    1.04463587]
+ [0.97496337 1.30951   ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 1 . Selected action is 1
+Now, our agent is at  2
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.93801409776
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.94754691]
+ [0.93620749 0.94484896]
+ [0.97929    1.04463587]
+ [0.97496337 1.30951   ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 2 . Selected action is 1
+Now, our agent is at  3
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.93782862558
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.93782863]
+ [0.93620749 0.94484896]
+ [0.97929    1.04463587]
+ [0.97496337 1.30951   ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 3 . Selected action is 1
+Now, our agent is at  4
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.94438129392
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.93782863]
+ [0.93620749 0.94438129]
+ [0.97929    1.04463587]
+ [0.97496337 1.30951   ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 4 . Selected action is 1
+Now, our agent is at  5
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  1.0580281811999999
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.93782863]
+ [0.93620749 0.94438129]
+ [0.97929    1.05802818]
+ [0.97496337 1.30951   ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 5 . Selected action is 1
+Now, our agent is at  6
+True reward of the action  1  is  1
+Updated Q[curr_pos][a] is  1.3685589999999999
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.93782863]
+ [0.93620749 0.94438129]
+ [0.97929    1.05802818]
+ [0.97496337 1.368559  ]
+ [1.         1.        ]]
+-------------- Restart of the game --------------
+Exploitation choice in Epsilon greedy is  1
+Current pos is 3 . Selected action is 1
+Now, our agent is at  4
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.945165700836
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.93782863]
+ [0.93620749 0.9451657 ]
+ [0.97929    1.05802818]
+ [0.97496337 1.368559  ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 4 . Selected action is 1
+Now, our agent is at  5
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  1.0753956730799998
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.93782863]
+ [0.93620749 0.9451657 ]
+ [0.97929    1.07539567]
+ [0.97496337 1.368559  ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 5 . Selected action is 1
+Now, our agent is at  6
+True reward of the action  1  is  1
+Updated Q[curr_pos][a] is  1.4217030999999998
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.93782863]
+ [0.93620749 0.9451657 ]
+ [0.97929    1.07539567]
+ [0.97496337 1.4217031 ]
+ [1.         1.        ]]
+-------------- Restart of the game --------------
+Exploration choice in Epsilon greedy is  0
+Current pos is 3 . Selected action is -1
+Now, our agent is at  2
+True reward of the action  0  is  0
+Updated Q[curr_pos][a] is  0.9269913205467001
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.93782863]
+ [0.92699132 0.9451657 ]
+ [0.97929    1.07539567]
+ [0.97496337 1.4217031 ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 2 . Selected action is 1
+Now, our agent is at  3
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.9291106760972401
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.92911068]
+ [0.92699132 0.9451657 ]
+ [0.97929    1.07539567]
+ [0.97496337 1.4217031 ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 3 . Selected action is 1
+Now, our agent is at  4
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  0.9474347413296
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.92911068]
+ [0.92699132 0.94743474]
+ [0.97929    1.07539567]
+ [0.97496337 1.4217031 ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 4 . Selected action is 1
+Now, our agent is at  5
+True reward of the action  1  is  0
+Updated Q[curr_pos][a] is  1.0958093847719999
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.92911068]
+ [0.92699132 0.94743474]
+ [0.97929    1.09580938]
+ [0.97496337 1.4217031 ]
+ [1.         1.        ]]
+Exploitation choice in Epsilon greedy is  1
+Current pos is 5 . Selected action is 1
+Now, our agent is at  6
+True reward of the action  1  is  1
+Updated Q[curr_pos][a] is  1.4695327899999997
+[[1.         1.        ]
+ [0.89       0.9380141 ]
+ [0.93516722 0.92911068]
+ [0.92699132 0.94743474]
+ [0.97929    1.09580938]
+ [0.97496337 1.46953279]
+ [1.         1.        ]]
+Total success ratio is  0.7
