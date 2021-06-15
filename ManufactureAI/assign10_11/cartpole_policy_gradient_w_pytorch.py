@@ -45,8 +45,8 @@ def plot_durations():
 #Parameters
 num_episode = 5000
 batch_size = 5
-learning_rate = 0.1
-gamma = 0.1
+learning_rate = 0.01
+gamma = 0.99
 
 env = gym.make('CartPole-v0')
 policy_net = PolicyNet()
@@ -117,7 +117,7 @@ for e in range(num_episode):
 
             probs = policy_net(state)
             m = Bernoulli(probs)
-            loss = -m.log_prob(action)
+            loss = -m.log_prob(action) * reward
             loss.backward()
         
         optimizer.step()

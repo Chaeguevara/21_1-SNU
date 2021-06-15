@@ -16,7 +16,7 @@ qtable = np.zeros((state_size, action_size))
 print(qtable)
 
 total_episodes = 50000
-total_test_episodes = 100
+total_test_episodes = 10
 max_steps = 99
 
 learning_rate = 0.7
